@@ -1,0 +1,22 @@
+*{margin:0;padding:0;}
+body{font-size: 14px;}
+input{border: none;outline: none;}
+ul li{list-style: none;display: block;}
+img{border:0;}
+textarea{resize:none;}
+
+/*a{display: block;float:left;}*/
+a:link{color: #666;text-decoration: none;}
+a:visited{color: #666;text-decoration: none;}
+a:hover{color: #ff7201;text-decoration: none;}
+a:active{color: #666;text-decoration: none;}
+
+/*清除浮动*/
+.clearfix:after{visibility: hidden;display: block;font-size: 0;content: '.';clear:both;height: 0;}
+.clearfix{*zoom:1;}
+.clearfix{_height:1%;}
+
+.fl{float: left;}
+.fr{float: right;}
+
+.comWidth{width:1000px; margin:auto;}
